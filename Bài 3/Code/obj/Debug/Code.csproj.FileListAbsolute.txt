@@ -1,0 +1,16 @@
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\bin\Debug\Code.exe.config
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\bin\Debug\Code.exe
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\bin\Debug\Code.pdb
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.csproj.AssemblyReference.cache
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\MainWindow.g.cs
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\App.g.cs
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code_MarkupCompile.cache
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code_MarkupCompile.lref
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\MainWindow.baml
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.g.resources
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.Properties.Resources.resources
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.csproj.GenerateResource.cache
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.csproj.CoreCompileInputs.cache
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.exe
+C:\Users\Windows\OneDrive\Máy tính\2001180066_VoTanDuc_BaiTapTuan7\Bài 3\Code\obj\Debug\Code.pdb

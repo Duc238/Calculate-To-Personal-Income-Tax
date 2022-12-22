@@ -1,0 +1,58 @@
+﻿<Window x:Class="Code.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Code"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="20 20 0 0"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" FontSize="40" TextWrapping="Wrap" Foreground="Red"><Bold>Bạn chỉ có thể chọn: Cư trú hoặc không cư trú. Không thể chọn cả hai</Bold></TextBlock>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <TextBlock Text="Thu nhập tháng: "></TextBlock>
+            <TextBox x:Name="txtIncome" PreviewTextInput="TextBox_PreviewTextInput" Margin="160 0 0 0" Width="500"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3">
+            <TextBlock Text="Các khoản thu nhập được miễn thuế (nếu có)"></TextBlock>
+            <TextBox x:Name="txtIncomeNotTax" Width="500" Margin="10 0 0 0" PreviewTextInput="txtThuNhapGiam_PreviewTextInput"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <TextBlock Text="Số người phụ thuộc: "></TextBlock>
+            <TextBox x:Name="txtNumberOfDependentPeople" PreviewTextInput="TextBox_PreviewTextInput_2" Margin="140 0 0 0" Width="500"></TextBox>
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock  Grid.Column="0" Margin="20 20 0 0" Text="Là công dân"></TextBlock>
+            <StackPanel Grid.Column="1">
+                <RadioButton x:Name="rdbResident" Content="Cư trú"></RadioButton>
+                <RadioButton x:Name="rdbNotResident" Margin="0 20 0 0" Content="Không cư trú"></RadioButton>
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="5" Orientation="Horizontal">
+            <TextBlock Text="Thuế TNCN phải nộp: "></TextBlock>
+            <TextBlock x:Name="txblResult"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="6">
+            <Button IsDefault="True" Background="Aquamarine" Click="Button_Click" Width="100" Content="Tính thuế TNCN"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
