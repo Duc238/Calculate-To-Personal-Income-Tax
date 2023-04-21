@@ -28,18 +28,19 @@ namespace Code
             InitializeComponent();
         }
         CultureInfo culture = new CultureInfo("en-US");
+        //TextBox chỉ cho phép nhập số từ 0-9
         private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             Regex regex = new Regex("[^0-9]+");
             e.Handled = regex.IsMatch(e.Text);
         }
-
+        //TextBox chỉ cho phép nhập số từ 0-9
         private void TextBox_PreviewTextInput_1(object sender, TextCompositionEventArgs e)
         {
             Regex regex = new Regex("[^0-9]+");
             e.Handled = regex.IsMatch(e.Text);
         }
-
+        //TextBox chỉ cho phép nhập số từ 0-9
         private void TextBox_PreviewTextInput_2(object sender, TextCompositionEventArgs e)
         {
             Regex regex = new Regex("[^0-9]+");
